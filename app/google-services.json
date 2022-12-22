@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1021819153016",
+    "project_id": "travelersdiary-ec595",
+    "storage_bucket": "travelersdiary-ec595.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021819153016:android:f1d7cc1e2670dce53e5b8d",
+        "android_client_info": {
+          "package_name": "com.example.travelersdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021819153016-os6tsi5edpik8ib33ipvtlt39khvhjav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPH2r1xLrEQFolG2iQkIeOxrMW4IM1P-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021819153016-os6tsi5edpik8ib33ipvtlt39khvhjav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
