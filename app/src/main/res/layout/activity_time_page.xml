@@ -14,12 +14,14 @@
         android:layout_height="wrap_content"
         android:text="CHOOSE THE TIME"
         android:textSize="20sp"
-        android:textAlignment="center"/>
+        android:textAlignment="center" />
     <AnalogClock
         android:id="@+id/analog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/time_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="40dp"/>
     <DigitalClock
         android:id="@+id/digital"
@@ -28,6 +30,8 @@
         android:textSize="50dp"
         android:textAlignment="center"
         app:layout_constraintTop_toBottomOf="@+id/analog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="40dp"/>
 
     <Button
