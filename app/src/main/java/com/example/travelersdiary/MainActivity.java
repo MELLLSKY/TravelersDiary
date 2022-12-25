@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     Button editEventButton;
     ImageView profilePhoto;
     EditText goalsText;
-
 
 
 
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         newEventButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,CreatEventPage.class));
+                startActivity(new Intent(MainActivity.this,CreatEventActivity.class));
             }
         });
 
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         editEventButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,CreatEventPage.class));
+                startActivity(new Intent(MainActivity.this,CreatEventActivity.class));
             }
         });
     }

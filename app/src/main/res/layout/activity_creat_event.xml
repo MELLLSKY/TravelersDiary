@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreatEventActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewCreatEventPage"
+        android:name="com.example.travelersdiary.CreatEventPageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:layout="@layout/fragment_creat_event_page" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewDatePage"
+        android:name="com.example.travelersdiary.DatePageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:layout="@layout/fragment_date_page" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewLocationPage"
+        android:name="com.example.travelersdiary.LocationPageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:layout="@layout/fragment_location_page" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewTimePage"
+        android:name="com.example.travelersdiary.TimePageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_time_page"
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewTopicPage"
+        android:name="com.example.travelersdiary.TopicPageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_topic_page"/>
+
+</LinearLayout>
