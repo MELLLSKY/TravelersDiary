@@ -13,41 +13,8 @@
         android:theme="@style/Theme.TravelersDiary"
         tools:targetApi="31">
         <activity
-            android:name=".TopicPage"
-            android:exported="false"
-            android:screenOrientation="sensor">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".TimePage"
-            android:exported="false"
-            android:screenOrientation="sensor">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".LocationPage"
-            android:exported="false"
-            android:screenOrientation="sensor">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".DatePage"
-            android:exported="false"
-            android:screenOrientation="sensor">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".CreatEventPage"
-            android:exported="false"
-            android:screenOrientation="sensor">
+            android:name=".CreatEventActivity"
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
