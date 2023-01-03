@@ -2,10 +2,10 @@ package com.example.travelersdiary;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.os.Bundle;
 
 public class CreatEventActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +20,7 @@ public class CreatEventActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.fragmentContainerViewTopicPage, new TopicPageFragment());
         fragmentTransaction.commit();
     }
+
+
 
 }

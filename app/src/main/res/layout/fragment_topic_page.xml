@@ -9,7 +9,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
+        android:background="#80DEEA"
+        android:padding="10dp"
         tools:context=".TopicPage">
 
         <TextView
@@ -17,9 +18,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="20dp"
+            android:background="@color/white"
+            android:fontFamily="casual"
             android:text="CHOOSE YOUR EVENT"
             android:textAlignment="center"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="10dp" />
 
 
         <TableLayout
@@ -27,32 +32,42 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
+            android:stretchColumns="0,2"
             app:layout_constraintTop_toBottomOf="@+id/topic_header">
 
             <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
 
                 <ImageButton
                     android:id="@+id/btn_camp"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_camping" />
 
                 <ImageButton
                     android:id="@+id/btn_swim"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_swimming" />
 
                 <ImageButton
                     android:id="@+id/btn_music"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_music" />
             </TableRow>
 
             <TableRow
@@ -62,23 +77,32 @@
                 <ImageButton
                     android:id="@+id/btn_cycle"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_cycle" />
 
                 <ImageButton
                     android:id="@+id/btn_travel"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_travel" />
 
                 <ImageButton
                     android:id="@+id/btn_art"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_art" />
             </TableRow>
 
             <TableRow
@@ -88,23 +112,32 @@
                 <ImageButton
                     android:id="@+id/btn_read"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_reading" />
 
                 <ImageButton
                     android:id="@+id/btn_sport"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_sport" />
 
                 <ImageButton
                     android:id="@+id/btn_yoga"
                     android:layout_width="wrap_content"
+                    android:layout_height="110dp"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:backgroundTint="#80DEEA"
+                    android:scaleType="centerInside"
+                    tools:src="@drawable/ic_yoga" />
             </TableRow>
 
 
@@ -117,12 +150,17 @@
             android:layout_margin="30dp"
             android:ems="10"
             android:hint="Add Another Event"
-            app:layout_constraintTop_toBottomOf="@id/topictable" />
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/topictable"
+            tools:layout_editor_absoluteX="40dp" />
 
         <Button
             android:id="@+id/btn_save_topic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#EF9A9A"
             android:text="save"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

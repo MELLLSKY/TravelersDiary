@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
+        android:outlineSpotShadowColor="#009688"
         tools:layout="@layout/fragment_creat_event_page" />
 
     <androidx.fragment.app.FragmentContainerView

@@ -9,7 +9,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="#80DEEA"
         tools:context=".TimePage">
 
 
@@ -17,9 +18,13 @@
             android:id="@+id/time_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:fontFamily="casual"
             android:text="CHOOSE THE TIME"
             android:textAlignment="center"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="10dp" />
 
         <AnalogClock
             android:id="@+id/analog"
@@ -35,6 +40,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="40dp"
+            android:background="@color/white"
+            android:fontFamily="casual"
             android:textAlignment="center"
             android:textSize="50dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -45,6 +52,7 @@
             android:id="@+id/btn_save_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#EF9A9A"
             android:text="save"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
