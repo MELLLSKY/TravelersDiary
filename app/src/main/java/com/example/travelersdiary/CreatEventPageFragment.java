@@ -63,6 +63,7 @@ public class CreatEventPageFragment extends Fragment {
                 fr.commit();
             }
         });
+
         return view;
 
     }

@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#80DEEA"
         android:orientation="vertical"
         android:visibility="visible"
         tools:context=".LocationPage">
@@ -18,6 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
+            android:background="@color/white"
+            android:fontFamily="casual"
             android:text="CHOOSE THE LOCATION"
             android:textAlignment="center"
             android:textSize="20sp" />
@@ -27,34 +30,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:backgroundTint="#00BCD4" />
+            android:backgroundTint="#EF9A9A" />
 
         <Spinner
             android:id="@+id/spn_town"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:backgroundTint="#00BCD4" />
+            android:backgroundTint="#EF9A9A" />
 
         <Spinner
             android:id="@+id/spn_street"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:backgroundTint="#00BCD4" />
+            android:backgroundTint="#EF9A9A" />
 
         <Spinner
             android:id="@+id/spn_venue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:backgroundTint="#00BCD4" />
+            android:backgroundTint="#EF9A9A" />
 
         <Button
             android:id="@+id/btn_save_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:backgroundTint="#EF9A9A"
             android:gravity="center_horizontal"
             android:text="save"></Button>
 

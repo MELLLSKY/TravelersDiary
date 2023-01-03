@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#80DEEA"
     tools:context=".DatePageFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -17,16 +18,20 @@
             android:id="@+id/date_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:fontFamily="casual"
             android:text="CHOOSE THE DATE"
             android:textAlignment="center"
-            android:textSize="20dp" />
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="10dp" />
 
         <CalendarView
             android:id="@+id/calendarView"
             android:layout_width="369dp"
             android:layout_height="346dp"
-            android:layout_margin="50dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginVertical="100dp"
+            android:background="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/date_header" />
@@ -35,6 +40,7 @@
             android:id="@+id/btn_save_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="#EF9A9A"
             android:text="save"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
